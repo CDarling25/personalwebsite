@@ -9,7 +9,7 @@ let styles = {
     },
 
     header: {
-        backgroundColor: '#CC5E21'
+        backgroundColor: '#CC5E21',
     },
 
     image: {
@@ -18,10 +18,17 @@ let styles = {
         marginLeft: '5%' 
     },
 
+    screenshot: {
+        width: '40%',
+        border: '10px solid #CC5E21',
+        marginLeft: '5%' 
+    },
+
     button: {
         margin: 10, 
-        paddingLeft: '45%',
-        paddingBottom: '20%',
+        paddingLeft: '5%',
+        paddingRight: '5%',
+        paddingBottom: '5%',
         marginLeft: 'auto',
         marginRight: 'auto'
     },
@@ -30,13 +37,19 @@ let styles = {
         fontSize: '16px',
         textDecoration: 'none',
         color: '#F088C9', 
-        
     },
 
     container: {
         display: 'flex',
         flexDirection: 'row',
         width: 'auto', 
+        paddingTop: 100,
+    },
+
+    buttoncontainer: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between', 
         paddingTop: 100,
     },
 
@@ -60,26 +73,27 @@ let styles = {
         paddingRight: '10%',
         marginLeft: 'auto',
         marginRight: 'auto',
-        paddingBottom: 50,
+        paddingBottom: 20,
         textAlign: 'center',
         maxWidth: '700px',
         fontFamily: 'Geologica',
-        fontSize: '16px'
+        fontSize: '20px', 
+        color: '#4F4B4A'
     },
 
     red: {
-        color: '#CC3A21', 
-        backgroundColor: '#DC8079'
+        color: '#AC1D12', 
+        backgroundColor: '#F3B7AC'
     },
 
     orange: {
-        color: '#CC5E21', 
-        backgroundColor: '#D8936D'
+        color: '#AC4C12', 
+        backgroundColor: '#F3D1AC'
     },
 
     yellow: {
-        color: '#D58C18',
-        backgroundColor: '#F2CB8C'
+        color: '#AC7812',
+        backgroundColor: '#F3DBAC'
     },
 
     flexContainer: {
