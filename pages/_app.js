@@ -4,6 +4,7 @@ import React from 'react'
 import { Analytics } from '@vercel/analytics/react';
 
 
+
 export default class MyApp extends App {
     static async getInitialProps({ Component, ctx }) {
         let pageProps = {}
@@ -21,7 +22,7 @@ export default class MyApp extends App {
         return (
             <>
                 <Head>
-                    <title>an inclusive space to make, share, and sell your craft</title>
+                    <title>Cameron Darling's Personal Website</title>
                    
                 </Head>
                 <Component {...pageProps} />

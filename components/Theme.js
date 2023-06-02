@@ -14,8 +14,9 @@ let styles = {
 
     image: {
         width: '25%',
-        border: '10px solid #CC5E21',
-        marginLeft: '5%' 
+        border: '10px solid #CC5E21', 
+        marginLeft: '5%',
+        justifyContent: 'center' 
     },
 
     screenshot: {

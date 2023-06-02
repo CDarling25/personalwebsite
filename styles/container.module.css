@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-top: 100
+ }
+
+ @media (min-width: 700px) {
+     .container {
+         display: flex;
+         flex-direction: row;
+         width: auto; 
+         padding-top: 100
+     }
+ }

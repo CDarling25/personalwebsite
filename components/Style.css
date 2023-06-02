@@ -1,3 +1,4 @@
+
     .body {
       font-size: 16px;
     }
@@ -39,17 +40,35 @@
 
     .container {
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
        width: auto; 
        padding-top: 100
-   }
+    }
+
+    @media (min-width780px) {
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: auto; 
+            padding-top: 100
+        }
+    }
 
     .buttoncontainer {
        display: flex;
-       flex-direction: row;
+       flex-direction: column;
        justify-content: space-between; 
        padding-top: 100
-   }
+    }
+
+    @media (min-width780px) {
+        .buttoncontainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 100
+        }
+    }
 
     .bigcontent {
        padding-top: 80;
