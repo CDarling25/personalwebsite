@@ -1,12 +1,13 @@
 import Layout from "../components/Layout";
 import Styles from "../components/Theme";
 import Spacer from "../components/Spacer";
+import "../components/Style.css";
 
 export default function Index() {
   return (
     <div style={Styles.body}>
       <Layout />
-      <div style = {Styles.container}>
+      <div style = {Styles.container}>        
         <img style={Styles.image} src="/picture.JPG"/>
         <p style = {Styles.bigcontent}> Hello! I'm Cameron Darling  </p>
       </div>
@@ -23,12 +24,20 @@ export default function Index() {
               In my free time I enjoy crafting. I especially enjoy knitting, embroidering, and mending my clothes!
             </p>
         </div>
-        <div style = {Styles.button}>
-          <a href = 'https://www.linkedin.com/in/cameron-darling-416496238'>
-            <button>
-              My LinkedIn
-            </button>
-          </a>
+
+        <div style = {Styles.buttoncontainer}>
+          <div style = {Styles.button}>
+            <a href = 'https://www.linkedin.com/in/cameron-darling-416496238'>
+              <button>
+                My LinkedIn
+              </button>
+            </a>
+            <a href = 'https://smithcollege-my.sharepoint.com/:w:/g/personal/sdarling_smith_edu/Ee9bPifg-idCokfK-ViAH20Bjq2O-xwT4CjMh_UBZf9iMg?e=ZOOmdY'>
+              <button>
+                My Resume
+              </button>
+            </a>
+          </div>
         </div>
     </div>
   );
