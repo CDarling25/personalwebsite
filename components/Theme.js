@@ -12,39 +12,55 @@ let styles = {
         backgroundColor: '#CC5E21'
     },
 
-    posterImage: {
-        width: '100%',
+    image: {
+        width: '25%',
+        border: '10px solid #CC5E21',
+        marginLeft: '5%' 
+    },
 
-    }   
-    ,
+    button: {
+        margin: 10, 
+        paddingLeft: '45%',
+        paddingBottom: '20%',
+        marginLeft: 'auto',
+        marginRight: 'auto'
+    },
 
     link: {
         fontSize: '16px',
         textDecoration: 'none',
-        color: '#F088C9'
+        color: '#F088C9', 
+        
+    },
+
+    container: {
+        display: 'flex',
+        flexDirection: 'row',
+        width: 'auto', 
+        paddingTop: 100,
     },
 
     bigcontent: {
-        paddingTop: 100,
+        paddingTop: 80,
         paddingLeft: '10%',
         paddingRight: '10%',
         marginLeft: 'auto',
         marginRight: 'auto',
-        paddingBottom: 100,
+        paddingBottom: 10,
         textAlign: 'center',
         maxWidth: '700px',
         fontFamily: 'Geologica',
-        fontSize: '20px',
+        fontSize: '60px',
         color: '#4F4B4A'
     },
 
     content: {
-        paddingTop: 100,
+        paddingTop: 50,
         paddingLeft: '10%',
         paddingRight: '10%',
         marginLeft: 'auto',
         marginRight: 'auto',
-        paddingBottom: 100,
+        paddingBottom: 50,
         textAlign: 'center',
         maxWidth: '700px',
         fontFamily: 'Geologica',

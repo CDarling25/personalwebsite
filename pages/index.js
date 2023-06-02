@@ -6,10 +6,11 @@ export default function Index() {
   return (
     <div style={Styles.body}>
       <Layout />
-      <div style={Styles.bigcontent}>
-        <h1> Hello! I'm Cameron Darling  </h1>
-        <Spacer height = {0}/>
-          <div style = {Styles.content}>
+      <div style = {Styles.container}>
+        <img style={Styles.image} src="/picture.JPG"/>
+        <p style = {Styles.bigcontent}> Hello! I'm Cameron Darling  </p>
+      </div>
+        <div style = {Styles.content}>
             <p style = {Styles.red}>
               I am a Junior at Smith College majoring in Computer Science and Data Science
             </p>
@@ -21,8 +22,14 @@ export default function Index() {
             <p style = {Styles.yellow}>
               In my free time I enjoy crafting. I especially enjoy knitting, embroidering, and mending my clothes!
             </p>
-          </div>
-      </div>
+        </div>
+        <div style = {Styles.button}>
+          <a href = 'https://www.linkedin.com/in/cameron-darling-416496238'>
+            <button>
+              My LinkedIn
+            </button>
+          </a>
+        </div>
     </div>
   );
 }
