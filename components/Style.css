@@ -1,0 +1,118 @@
+    .body {
+      font-size: 16px;
+    }
+
+    .h2 {
+       font-size: 16px;
+   }
+
+    .header {
+       background-color: #CC5E21;
+   }
+
+    .image {
+       width: 25%;
+       border: 10px solid #CC5E21;
+       margin-left: 5% 
+   }
+
+    .screenshot {
+       width: 40%;
+       border: 10px solid #CC5E21;
+       margin-left: 5% 
+   }
+
+    .button {
+       margin: 10; 
+       padding-left: 5%;
+       padding-right: 5%;
+       padding-bottom: 5%;
+       margin-left: auto;
+       margin-right: auto
+   }
+
+    .link {
+       font-size: 16px;
+       text-decoration: none;
+       color: #F088C9 
+   }
+
+    .container {
+       display: flex;
+       flex-direction: row;
+       width: auto; 
+       padding-top: 100
+   }
+
+    .buttoncontainer {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between; 
+       padding-top: 100
+   }
+
+    .bigcontent {
+       padding-top: 80;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 10;
+       text-align: center;
+       max-width: 700px;
+       font-family: Geologica;
+       font-size: 60px;
+       color: #4F4B4A
+   }
+
+    .content {
+       padding-top: 50;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 20;
+       text-align: center;
+       max-width: 700px;
+       font-family: Geologica;
+       font-size: 20px; 
+       color: #4F4B4A
+   }
+
+    .red {
+       color: #AC1D12; 
+       background-color: #F3B7AC
+   }
+
+    .orange {
+       color: #AC4C12; 
+       background-color: #F3D1AC
+   }
+
+    .yellow {
+       color: #AC7812;
+       background-color: #F3DBAC
+    }
+
+    .flexContainer {
+       display: flex;
+       flex-direction: row;
+   }
+
+    .imageDescription {
+       height: 10%;
+       width: 100%;
+   }
+
+    .beStillImage {
+       height: 40%;
+       width: 100%;
+   }
+   
+    .firstGenPromoCard {
+       height: auto;
+       max-width: 100%;
+
+   }
+
+
