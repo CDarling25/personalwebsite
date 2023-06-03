@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Styles from "../components/Theme";
 import Spacer from "../components/Spacer";
+import styles from "../styles/image.module.css";
 
 export default function Index() {
   return (

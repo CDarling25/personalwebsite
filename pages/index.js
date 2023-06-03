@@ -2,13 +2,14 @@ import Layout from "../components/Layout";
 import Styles from "../components/Theme";
 import Spacer from "../components/Spacer";
 import styles from "../styles/container.module.css";
+import imagestyle from "../styles/image.module.css";
 
 export default function Index() {
   return (
     <div style={Styles.body}>
       <Layout />
       <div className = {styles.container}>        
-        <img className = {styles.image} src="/picture.JPG"/>
+        <img className = {imagestyle.image} src="/picture.JPG"/>
         <p style = {Styles.bigcontent}> Hello! I'm Cameron Darling  </p>
       </div>
         <div style = {Styles.content}>
